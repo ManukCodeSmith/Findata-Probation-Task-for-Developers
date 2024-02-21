@@ -1,0 +1,22 @@
+img{
+    width: 100px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+h2{
+    color: rgb(148, 141, 141);
+    font-size: x-large;
+}
+h3{
+    color: black;
+    font-size: x-large;
+}
+h4{
+    color: brown;
+    font-size: x-large;
+}
+span{
+    display:inline-block;
+    width: 90px;
+    height: 50px;
+}
