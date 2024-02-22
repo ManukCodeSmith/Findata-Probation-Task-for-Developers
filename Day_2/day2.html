@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button Click Example</title>
+    <link rel="stylesheet" type="text/css" href="day2.css">
+</head>
+<body>
+    <img src="https://t3.ftcdn.net/jpg/00/76/82/60/240_F_76826048_sQcwzR4LwUNq6GsWdXo0t8BYzHVCNd66.jpg" alt="" id="img" >
+    <span><button id="txt1">Change Text</span></button>
+    <a id="txt2"> Text1 </a>
+    
+
+    <script>
+        let imgArr = ["https://as2.ftcdn.net/v2/jpg/01/32/15/45/1000_F_132154599_BQAk2Fn0xYckpCTzzAWqb1gx53O3oImq.jpg","https://t3.ftcdn.net/jpg/00/76/82/60/240_F_76826048_sQcwzR4LwUNq6GsWdXo0t8BYzHVCNd66.jpg"]
+        let button = document.getElementById('txt1');
+        let paragraph = document.getElementById('txt2');
+        let img = document.getElementById('img');
+        index = 0
+        button.addEventListener('click', function() {
+            if(index >= imgArr.length) index = 0
+            img.setAttribute("src", imgArr[index++])
+            paragraph.textContent = 'Text2';
+        });
+    </script>
+
+</body>
+</html>
