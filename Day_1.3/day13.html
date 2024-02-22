@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day13.css">
+</head>
+<body>
+    <div id="l"></div>
+    <button id="k"> color</button>
+
+    <script>
+        let color = document.getElementById("k")
+        
+        let isDisplay = true;
+        color.style.backgroundColor = "red"
+        const exampleDiv = document.getElementById('l');
+        color.addEventListener("click", function() {
+            if (isDisplay) {
+                exampleDiv.style.display = 'none';
+            }
+            else {
+                exampleDiv.style.display = 'block';
+            }
+            isDisplay = !isDisplay;
+            
+        })
+    </script>
+</body>
+</html>
