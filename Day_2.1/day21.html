@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="day21.css">
+</head>
+<body>
+    <img src="https://cdn.getmidnight.com/45d07b00b0188a892509950ff919e14e/2022/10/Hello--1-.jpg" alt="" id="img" >
+    <a id="img">  </a>
+    
+
+    <script>
+        let imgArr = ["https://t3.ftcdn.net/jpg/02/90/27/14/360_F_290271485_mvECZ6dszPQGJpqx4F3H2UszWjWZjVXL.jpg","https://cdn.getmidnight.com/45d07b00b0188a892509950ff919e14e/2022/10/Hello--1-.jpg"]
+        let button = document.getElementById('img');
+        let paragraph = document.getElementById('img');
+        let img = document.getElementById('img');
+        index = 0
+        button.addEventListener('click', function() {
+            if(index >= imgArr.length) index = 0
+            img.setAttribute("src", imgArr[index++])
+            paragraph.textContent = 'img';
+        });
+    </script>
+
+</body>
+</html>
