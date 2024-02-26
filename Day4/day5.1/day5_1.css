@@ -1,0 +1,25 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-right: 150px;
+}
+#nav {
+    background-image: url('https://img.freepik.com/free-photo/exploding-burger-with-vegetables-and-melted-cheese-on-black-background-generative-ai_157027-1734.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 420px; 
+  }
+ 
+ 
+  .im li{
+    width: 100px; 
+    height: 50px;   
+}
+  
+nav a{
+    font-size: 55px;
+    color: #000;
+}
