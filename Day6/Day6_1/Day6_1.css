@@ -1,0 +1,17 @@
+.comments-container {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(31, 193, 214);
+    color: aliceblue;
+  }
+  
+  .replies-container {
+    margin-left: 20px;
+  }
+  
